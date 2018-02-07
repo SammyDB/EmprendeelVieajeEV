@@ -76,7 +76,7 @@ public class Login extends AppCompatActivity {
         }, new Response.ErrorListener() {
             @Override
             public void onErrorResponse(VolleyError error) {
-                Toast.makeText(Login.this, "Ocurrio un horrible error, conprueba tu conexión  a internet porfavorjjjjj", Toast.LENGTH_SHORT).show();
+                Toast.makeText(Login.this, "Ocurrio un error inesperado , conprueba tu conexión  a internet porfavor", Toast.LENGTH_SHORT).show();
             }
         });
         VolleyRP.addToQueue(solicitud, mRequest, this, volley);
